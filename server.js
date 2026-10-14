@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const client = new MercadoPagoConfig({ accessToken: 'TEST-1577049737-...' }); // ACA PEGA TU TEST- DEL VENDEDOR
+const client = new MercadoPagoConfig({ accessToken: 'APP_USR-5300012898080631-101413-3ce58e5a903968f8d8ca34a09dc7c872-1577049737' }); // ACA PEGA TU TEST- DEL VENDEDOR
 
 let creditoDisponible = false;
 
